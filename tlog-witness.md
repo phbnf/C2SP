@@ -123,7 +123,7 @@ tree size of the latest cosigned checkpoint in decimal, followed by a newline
 (U+000A). The response MUST have a `Content-Type` of `text/x.tlog.size`.
 
 If a client doesn't have information on the latest cosigned checkpoint, it MAY
-initially make a request with a old size of zero to obtain it.
+initially make a request with an old size of zero to obtain it.
 
 The consistency proof lines MUST encode a Merkle Consistency Proof from the old
 size to the checkpoint size according to [RFC 6962][], Section 2.1.2. The proof
